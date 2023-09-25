@@ -1,0 +1,4 @@
+﻿  lab6.cpp
+C:\Users\savel\Desktop\AS_ASD\lab6\lab6\lab6.cpp(65,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab6\lab6\lab6.cpp(120,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  lab6.vcxproj -> C:\Users\savel\Desktop\AS_ASD\lab6\x64\Debug\lab6.exe

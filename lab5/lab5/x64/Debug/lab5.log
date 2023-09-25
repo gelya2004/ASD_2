@@ -1,0 +1,4 @@
+﻿  lab5.cpp
+C:\Users\savel\Desktop\AS_ASD\lab5\lab5\lab5.cpp(26,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab5\lab5\lab5.cpp(96,6): warning C4101: element: неиспользованная локальная переменная
+  lab5.vcxproj -> C:\Users\savel\Desktop\AS_ASD\lab5\x64\Debug\lab5.exe
