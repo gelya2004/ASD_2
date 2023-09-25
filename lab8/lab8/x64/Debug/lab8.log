@@ -1,0 +1,7 @@
+﻿  lab8.cpp
+C:\Users\savel\Desktop\AS_ASD\lab8\lab8\lab8.cpp(5,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab8\lab8\lab8.cpp(5,17): warning C4309: инициализация: усечение константного значения
+C:\Users\savel\Desktop\AS_ASD\lab8\lab8\lab8.cpp(35,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab8\lab8\lab8.cpp(99): warning C4715: find: значение возвращается не при всех путях выполнения
+C:\Users\savel\Desktop\AS_ASD\lab8\lab8\lab8.cpp(91): warning C4715: w: значение возвращается не при всех путях выполнения
+  lab8.vcxproj -> C:\Users\savel\Desktop\AS_ASD\lab8\x64\Debug\lab8.exe

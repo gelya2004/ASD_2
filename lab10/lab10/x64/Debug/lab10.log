@@ -1,0 +1,5 @@
+﻿  lab10.cpp
+C:\Users\savel\Desktop\AS_ASD\lab10\lab10\lab10.cpp(8,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab10\lab10\lab10.cpp(8,17): warning C4309: инициализация: усечение константного значения
+C:\Users\savel\Desktop\AS_ASD\lab10\lab10\lab10.cpp(38,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  lab10.vcxproj -> C:\Users\savel\Desktop\AS_ASD\lab10\x64\Debug\lab10.exe

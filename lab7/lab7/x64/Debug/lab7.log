@@ -1,0 +1,7 @@
+﻿  lab7.cpp
+C:\Users\savel\Desktop\AS_ASD\lab7\lab7\lab7.cpp(5,17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab7\lab7\lab7.cpp(5,17): warning C4309: инициализация: усечение константного значения
+C:\Users\savel\Desktop\AS_ASD\lab7\lab7\lab7.cpp(34,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\savel\Desktop\AS_ASD\lab7\lab7\lab7.cpp(91): warning C4715: Find: значение возвращается не при всех путях выполнения
+C:\Users\savel\Desktop\AS_ASD\lab7\lab7\lab7.cpp(83): warning C4715: w: значение возвращается не при всех путях выполнения
+  lab7.vcxproj -> C:\Users\savel\Desktop\AS_ASD\lab7\x64\Debug\lab7.exe
