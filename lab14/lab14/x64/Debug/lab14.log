@@ -1,0 +1,4 @@
+﻿  lab14.cpp
+C:\Users\savel\source\repos\lab14\lab14\lab14.cpp(25,27): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\savel\source\repos\lab14\lab14\lab14.cpp(26,27): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  lab14.vcxproj -> C:\Users\savel\source\repos\lab14\x64\Debug\lab14.exe
