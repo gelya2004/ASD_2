@@ -20,14 +20,14 @@ void BFS(int s, int n)
 		}
 	in.close();
 
-	cout << "\n Дано: \n";
+	cout << "\n Дано: \n"; //создаем список смежности для каждой вершины 
 	for (int i = 0; i < n; i++)
 	{
 		cout << i << ": "; copy(v[i].begin(), v[i].end(), ostream_iterator<int>(cout, " "));
 		cout << endl;
 	}
 
-	queue<int> Q; 
+	queue<int> Q; //создаем очередь 
 	bool* visit = new bool[n];
 	int* d = new int[n];
 	for (int u = 0; u < n; u++)
