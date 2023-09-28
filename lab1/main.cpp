@@ -22,7 +22,7 @@ void write(vector<Point> mas, int n)
 	cout << endl;
 }
 
-void Low_Point(vector<Point> &mas)
+void Low_Point(vector<Point> &mas) //Функция для нахождения самой нижней точки и перемещения ее в начало вектора
 {
 	for (int i = 0; i < mas.size(); i++)
 	{
@@ -40,7 +40,7 @@ void Low_Point(vector<Point> &mas)
 	write(mas, mas.size());
 }
 
-void Sort(vector<Point>& mas)
+void Sort(vector<Point>& mas) // Функция для сортировки точек по углу относительно самой нижней точки
 {
 	int j = 0;
 	for (int i = 2; i < mas.size(); i++)
@@ -56,7 +56,7 @@ void Sort(vector<Point>& mas)
 	write(mas, mas.size());
 }
 
-void Delete_extra(vector<Point>& mas)
+void Delete_extra(vector<Point>& mas) //удаляем лишние точки, которые не попадают в выпуклую оболочку 
 {
 	for (int i = 3; i < mas.size(); i++)
 		if ((rotate(mas[i - 2], mas[i - 1], mas[i]) < 0) || (rotate(mas[i - 2], mas[i - 1], mas[i]) == 0))
@@ -68,7 +68,7 @@ void Delete_extra(vector<Point>& mas)
 	write(mas, mas.size());
 }
 
-void ConvexHull(vector<Point>& mas)
+void ConvexHull(vector<Point>& mas) //Основная функция для построения выпуклой оболочки 
 {
 	cout << "Data: \n";
 	write(mas, mas.size());
