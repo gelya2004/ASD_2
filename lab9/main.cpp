@@ -16,7 +16,7 @@ struct Edge {
 	}
 };
 
-class Graph
+class Graph //определяем количество вершин в графе
 {
 public:
 	Graph()
@@ -37,7 +37,7 @@ public:
 		d = new int[Num];
 		v = new list<int>[Num];
 	}
-	void AddVers()
+	void AddVers() //добавляем вершины и ребера в граф из файла
 	{
 		int element;
 		ifstream in; in.open("matrix.txt");
@@ -68,7 +68,7 @@ public:
 			cout << endl;
 		}
 	}
-	void BellmanFord(int src)
+	void BellmanFord(int src) // Функция для поиска кратчайшего пути в графе методом Беллмана-Форда
 	{
 		for (int i = 0; i < Num; i++)
 			d[i] = INF;
@@ -80,7 +80,7 @@ public:
 					d[g[j].right] = d[g[j].left] + g[j].weight;
 
 		
-		for (int j = 0; j < g.size(); j++)
+		for (int j = 0; j < g.size(); j++) // Проверка на наличие отрицательного цикла в графе
 			if (d[g[j].left] != INF && d[g[j].left] + g[j].weight < d[g[j].right])
 			{
 				ofstream out; out.open("D:/GitKraken/Lab_works/4 semester/ASD/lab9/out.txt");
@@ -90,7 +90,7 @@ public:
 			}
 			else
 			{
-				ofstream out; out.open("D:/GitKraken/Lab_works/4 semester/ASD/lab9/out.txt");
+				ofstream out; out.open("D:/GitKraken/Lab_works/4 semester/ASD/lab9/out.txt");   // Вывод кратчайших расстояний до каждой вершины
 				out << "V : length \n";
 				for (int i = 0; i < Num; i++)
 					out << i << " : " << d[i] << endl;
