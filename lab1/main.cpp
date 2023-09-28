@@ -10,12 +10,12 @@ struct Point
 	int x, y;
 };
 
-int rotate(Point A, Point B, Point C)
+int rotate(Point A, Point B, Point C) //определяем ориентацию точек
 {
 	return (B.y - A.y)*(C.x - B.x)  - (B.x - A.x)*(C.y - B.y);
 }
 
-void write(vector<Point> mas, int n)
+void write(vector<Point> mas, int n) /выводим координаты точек
 {
 	for (int i = 0; i < n; i++)
 		cout <<  " (" << mas[i].x << " ; " << mas[i].y << ")" << endl;
